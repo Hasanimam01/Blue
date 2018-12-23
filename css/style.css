@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: #121B2A;
+}
+	
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 20%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+	margin-top: 45px;
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 25px;
+	display: block;
+	text-transform: uppercase;
+	font-size:18px;
+	transition: .6s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	padding-right: 0;
+	color:#0C7BA9;
+	
+}
+.banner{
+	background-image: url(../images/banner.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.content{
+	width: 45%;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+.content h1{
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+.content h2{
+	color:#0275AB;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+.content p{
+	color: white;
+	font-size: 20px;
+	margin-top: 2px;
+}
+.content button{
+	padding: 10px 50px;
+}
+.btn_text{
+	font-size: 19px;
+}
+button img{
+	width: 11px;
+}
+.services{
+	background-color:#121B2C;
+	padding: 10px 0;
+
+}
+.single1{
+	width: 30%;
+	float: left;
+}
+.single1_title{
+	overflow: hidden;
+
+}
+.s1_img{
+width: 20%;
+float: left;
+}
+.s1_img img{
+	width: 100%;
+
+}
+.s1_head{
+	width: 70%;
+	float: left;
+
+}
+.s1_head h1{
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	float: left;
+
+}
+.s1_head h2{
+	color: red;
+	font-size: 20px;
+	font-weight: 400;
+	float: left;
+margin-bottom: 10px;
+}
+.single1_text p{
+	color: white;
+
+}
